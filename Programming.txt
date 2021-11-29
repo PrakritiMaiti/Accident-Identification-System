@@ -1,0 +1,7 @@
+The Programming of this project is also similar to that of vehicle tracking system but here an “if” statement is used for sending coordinates when vibration sensor sends low signal to the Arduino.
+
+Before you embark upon building Accident Detection and Messaging System you have to select the same baud rate of GSM and GPS device, but if you are using different baud rate module or device you will face some problem related with the baud rate.
+
+In this system we have used two different baud rates:
+
+4800 bps baud rate for GPS Module and 9600 bps baud rate for GSM Module. When we takes Coordinates from GPS then we have use 4800 bps baud rate and when we have to send Coordinates to control room then we used 9600 bps baud rate.
